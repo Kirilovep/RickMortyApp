@@ -25,6 +25,8 @@
 		A65FF58525E6DECA00076EAC /* SavedCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65FF58325E6DECA00076EAC /* SavedCharactersViewController.swift */; };
 		A65FF58D25E6DFDB00076EAC /* CharactersCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A65FF58B25E6DFDB00076EAC /* CharactersCoreDataModel.xcdatamodeld */; };
 		A65FF59425E6EF0000076EAC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65FF59325E6EF0000076EAC /* SearchViewController.swift */; };
+		A65FF5A625E6FD1900076EAC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65FF5A525E6FD1900076EAC /* NetworkService.swift */; };
+		A65FF5A925E6FD2600076EAC /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65FF5A825E6FD2600076EAC /* NetworkDataFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		A65FF58325E6DECA00076EAC /* SavedCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCharactersViewController.swift; sourceTree = "<group>"; };
 		A65FF58C25E6DFDB00076EAC /* CharactersCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CharactersCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		A65FF59325E6EF0000076EAC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A65FF5A525E6FD1900076EAC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A65FF5A825E6FD2600076EAC /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		EC3BA3F96A6F45091E3CD87B /* Pods-RickMortyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickMortyApp.release.xcconfig"; path = "Target Support Files/Pods-RickMortyApp/Pods-RickMortyApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				A65FF55825E6ACED00076EAC /* NetworkManager.swift */,
+				A65FF5A525E6FD1900076EAC /* NetworkService.swift */,
+				A65FF5A825E6FD2600076EAC /* NetworkDataFetcher.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -357,8 +363,10 @@
 				A65FF58125E6C29100076EAC /* VCs.swift in Sources */,
 				A65FF58D25E6DFDB00076EAC /* CharactersCoreDataModel.xcdatamodeld in Sources */,
 				A65FF56F25E6BF2000076EAC /* Cells.swift in Sources */,
+				A65FF5A625E6FD1900076EAC /* NetworkService.swift in Sources */,
 				A65FF53825E6AB7000076EAC /* MainViewController.swift in Sources */,
 				A65FF53425E6AB7000076EAC /* AppDelegate.swift in Sources */,
+				A65FF5A925E6FD2600076EAC /* NetworkDataFetcher.swift in Sources */,
 				A65FF59425E6EF0000076EAC /* SearchViewController.swift in Sources */,
 				A65FF56225E6B1A800076EAC /* MainTableViewCell.swift in Sources */,
 				A65FF55325E6AC5100076EAC /* AllCharactersModel.swift in Sources */,
